@@ -10,7 +10,7 @@ public class Main {
 
 		// tempo total de simulacao - usei como tempo total o numero de aleatorios que
 		// devem ser gerados
-		int aleatorios = 1000;
+		int aleatorios = 100000;
 
 		// tempo para primeiro cliente
 		double tempoPrimeirocliente = (3.0);
@@ -29,7 +29,7 @@ public class Main {
 		int intervaloDeChegadaMIN = 2;
 		int intervaloDeChegadaMAX = 4;
 
-		// implementação de filas simples
+		// implementaï¿½ï¿½o de filas simples
 		FilaSimples filaSimples = new FilaSimples(media, aleatorios, tempoPrimeirocliente, numeroDeServidores,
 				capacidadeDaFila, intervaloDeAtendimentoMIN, intervaloDeAtendimentoMAX, intervaloDeChegadaMIN,
 				intervaloDeChegadaMAX);
@@ -46,7 +46,7 @@ public class Main {
 		// numero de servidores
 		numeroDeServidores = 2;
 
-		// implementação de filas simples
+		// implementaï¿½ï¿½o de filas simples
 		filaSimples = new FilaSimples(media, aleatorios, tempoPrimeirocliente, numeroDeServidores, capacidadeDaFila,
 				intervaloDeAtendimentoMIN, intervaloDeAtendimentoMAX, intervaloDeChegadaMIN, intervaloDeChegadaMAX);
 
